@@ -19,6 +19,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-manrope)", "ui-sans-serif", "system-ui"],
+        manrope: ["var(--font-manrope)", "ui-sans-serif", "system-ui"],
       },
       colors: {
         border: "hsl(var(--border))",
