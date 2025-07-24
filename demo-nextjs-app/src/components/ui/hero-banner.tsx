@@ -20,7 +20,7 @@ export default function HeroBanner() {
       <div className="absolute inset-0 z-5 bg-gradient-to-r from-black/30 via-transparent to-black" />
 
       {/* Hero Content */}
-      <div className="relative z-10 w-full px-4 sm:px-8 md:px-16 lg:px-24 py-6 sm:py-16 md:py-20">
+      <div className="relative z-10 container-global py-6 sm:py-16 md:py-20">
         <div className="flex items-center justify-center lg:justify-start min-h-[350px] sm:min-h-[500px] md:min-h-[600px]">
           {/* Content Container */}
           <div className="w-full lg:w-1/2 max-w-4xl text-center lg:text-left">

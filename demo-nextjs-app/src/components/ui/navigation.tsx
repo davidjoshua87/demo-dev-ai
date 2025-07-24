@@ -10,7 +10,7 @@ export default function Navigation() {
 
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg border-b border-gray-700">
-      <nav className="w-full px-4 sm:px-8 md:px-16 lg:px-24">
+      <nav className="container-global">
         <div
           className="flex items-center justify-between"
           style={{ height: "80px" }}
@@ -28,10 +28,7 @@ export default function Navigation() {
           </div>
 
           {/* Desktop Navigation */}
-          <div
-            className="hidden md:flex items-center"
-            style={{ gap: "48px" }}
-          >
+          <div className="hidden md:flex items-center" style={{ gap: "48px" }}>
             {/* Solutions Dropdown */}
             <div className="relative group">
               <Button

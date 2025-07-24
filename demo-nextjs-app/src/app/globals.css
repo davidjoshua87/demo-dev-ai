@@ -122,3 +122,9 @@
     font-family: var(--font-manrope);
   }
 }
+
+@layer utilities {
+  .container-global {
+    @apply w-full px-4 sm:px-8 md:px-16 lg:px-24;
+  }
+}
